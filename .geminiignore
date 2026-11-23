@@ -1,0 +1,9 @@
+# Filter local environment files, keys, and build artifacts in supported Gemini CLI tools.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+dist/
+dist-ssr/
+node_modules/

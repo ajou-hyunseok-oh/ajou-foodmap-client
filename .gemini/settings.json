@@ -1,0 +1,11 @@
+{
+  "context": {
+    "fileName": "GEMINI.md"
+  },
+  "skills": {
+    "disabled": [
+      "client-auth-api-verify",
+      "client-page-feature"
+    ]
+  }
+}

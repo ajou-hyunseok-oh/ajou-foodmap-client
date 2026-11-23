@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(!.env.example)",
+      "Read(*.pem)",
+      "Read(*.key)",
+      "Edit(.env)",
+      "Edit(.env.*)",
+      "Edit(!.env.example)",
+      "Edit(*.pem)",
+      "Edit(*.key)",
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "PowerShell(Remove-Item *-Recurse*-Force*)",
+      "PowerShell(Remove-Item *-Force*-Recurse*)",
+      "PowerShell(git push --force*)",
+      "PowerShell(git reset --hard*)"
+    ]
+  }
+}
